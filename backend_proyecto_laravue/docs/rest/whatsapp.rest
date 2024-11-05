@@ -1,0 +1,13 @@
+POST https://graph.facebook.com/v18.0/106430075725576/messages
+Authorization: Bearer EAATZC0PN8ZCycBO8bn0FurkrRgNXE8zF8pyZCV8yQpD01mFaRZCba4XwZB2unFr9xmsw27C3kbGDel3XTqZACSPScx28sLe7bSvItReGYJTBZAEHaQ5fiT5kzp0YoobLsWmdZA3tEsZA0W27ia2ycysymJnnQwwF35Xf03iUngfQqtQUh9Dw5ooGi32pctsx8UtlTR5qQM8ftDaUnhkYLLZCIZD
+Content-Type: application/json
+
+{ 
+    "messaging_product": "whatsapp",
+    "to": "59173277937",
+    "type": "template",
+    "template": { 
+        "name": "hello_world",
+        "language": { "code": "en_US" }
+    }
+}

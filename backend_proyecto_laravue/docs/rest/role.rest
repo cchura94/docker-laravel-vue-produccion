@@ -1,0 +1,10 @@
+GET http://127.0.0.1:8000/api/role
+
+### guardar
+POST http://127.0.0.1:8000/api/role
+Accept: application/json
+Content-Type: application/json
+
+{
+    "nombre": "CAJERO"
+}

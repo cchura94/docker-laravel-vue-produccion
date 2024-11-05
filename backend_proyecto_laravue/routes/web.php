@@ -1,0 +1,8 @@
+<?php
+
+use Illuminate\Support\Facades\Route;
+
+Route::get('/', function () {
+    return response([], 403);
+    // return view('welcome');
+});

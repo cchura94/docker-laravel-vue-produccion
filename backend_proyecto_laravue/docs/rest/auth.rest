@@ -1,0 +1,29 @@
+### Login
+POST http://localhost:8000/api/v1/auth/login
+Content-Type: application/json
+Accept: application/json
+
+{
+    "email": "admin@mail.com",
+    "password": "admin54321"
+}
+### Register
+POST http://localhost:8000/api/v1/auth/register
+Content-Type: application/json
+
+{
+    "name": "admin",
+    "email": "admin@mail.com",
+    "password": "admin54321",
+    "c_password": "admin54321"
+}
+
+### Profile
+GET http://localhost:8000/api/v1/auth/profile
+Accept: application/json
+Authorization: Bearer 3|QTSGfBwn5q8Y35oF1mOfZXpeAauO4o3W5tnXa4tF166b8389
+
+### Logout
+POST http://localhost:8000/api/v1/auth/logout
+Accept: application/json
+Authorization: Bearer 3|QTSGfBwn5q8Y35oF1mOfZXpeAauO4o3W5tnXa4tF166b8389

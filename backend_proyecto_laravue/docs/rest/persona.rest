@@ -1,0 +1,18 @@
+GET http://127.0.0.1:8000/api/persona
+
+### guardar
+POST http://127.0.0.1:8000/api/persona
+Accept: application/json
+Content-Type: application/json
+
+{
+    "nombres": "Pedro Prueba Parédez",
+    "apellidos": "paredez",
+    "direccion": "Av 6 de Agosto Z. abc",
+    "estado": 1,
+    "user_id": 4
+}
+
+### mostrar
+GET http://127.0.0.1:8000/api/persona/45
+Accept: application/json

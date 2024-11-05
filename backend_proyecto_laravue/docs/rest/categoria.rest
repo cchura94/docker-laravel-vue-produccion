@@ -1,0 +1,28 @@
+GET http://localhost:8000/api/categoria
+
+### guardar
+
+POST http://127.0.0.1:8000/api/categoria
+Content-Type: application/json
+Authorization: Bearer 14|vJ0hvphzopfymyPnYVe9sIy33HLiAyvdi9K3hPILea784f27
+
+{
+    "nombre": "ELECTRONICOS",
+    "detalle": "equipos de computación"
+}
+
+### mostrar
+GET http://localhost:8000/api/categoria/5
+
+### modificar
+PUT http://localhost:8000/api/categoria/4
+Accept: application/json
+Content-Type: application/json
+
+{
+    "nombre": "JUGEUETES PARA NIÑOS",
+    "detalle": "JUEGUES de plastico"
+}
+
+### eliminar
+DELETE http://localhost:8000/api/categoria/9

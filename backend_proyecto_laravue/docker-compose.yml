@@ -55,7 +55,7 @@ services:
       dockerfile: nginx.dockerfile
     restart: unless-stopped
     ports:
-      - "89:80"
+      - "80:80"
     networks:
       - laravel_network
 
